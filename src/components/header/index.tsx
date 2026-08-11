@@ -692,10 +692,6 @@ const Header = () => {
                   <i className="ti ti-user-circle me-2" />
                   MyProfile
                 </Link>
-                <Link className="dropdown-item" to={route.salesreport}>
-                  <i className="ti ti-file-text me-2" />
-                  Reports
-                </Link>
                 <Link className="dropdown-item" to={route.generalsettings}>
                   <i className="ti ti-settings-2 me-2" />
                   Settings

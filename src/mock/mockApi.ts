@@ -58,6 +58,8 @@ const customerSearchValues = (c: Customer): Array<string | undefined> => [
   c.email,
   c.phone,
   c.contact_person,
+  c.address,
+  c.gst_number,
 ];
 
 const filterCustomers = (query: Record<string, any>): Customer[] => {
@@ -124,12 +126,12 @@ const handleCustomers = async (method: string, segments: string[], query: Record
   }
 
   // GET /customers/lookup
-  if (id === 0 && sub === 'lookup' && method === 'get') {
+  if (segments.length === 2 && segments[1] === 'lookup' && method === 'get') {
     return ok(db.customers.map(toLookup), 'Customers fetched successfully');
   }
 
   // POST /customers/bulk-delete
-  if (id === 0 && sub === 'bulk-delete' && method === 'post') {
+  if (segments.length === 2 && segments[1] === 'bulk-delete' && method === 'post') {
     const ids = asRecord(body).ids;
     if (Array.isArray(ids)) {
       db.customers = db.customers.filter((c) => !ids.includes(c.id));
@@ -349,7 +351,7 @@ const handleFacilities = async (method: string, segments: string[], query: Recor
   }
 
   // GET /facilities/types
-  if (id === 0 && sub === 'types' && method === 'get') {
+  if (segments.length === 2 && segments[1] === 'types' && method === 'get') {
     return ok(['production', 'packaging', 'warehouse', 'cold_storage', 'third_party'], 'Facility types fetched successfully');
   }
 

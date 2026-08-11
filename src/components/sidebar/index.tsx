@@ -67,9 +67,17 @@ const ITEMS_TO_HIDE = [
   "Billers",
   "Stores",
   
-  // Reports
+  // Reports - everything
+  "Reports",
+  "Sales Report",
+  "Purchase Report",
+  "Inventory Report",
   "Invoice Report",
+  "Supplier Report",
+  "Customer Report",
+  "Product Report",
   "Expense Report",
+  "Income Report",
   "Tax Report",
   "Profit & Loss",
   "Annual Report",
