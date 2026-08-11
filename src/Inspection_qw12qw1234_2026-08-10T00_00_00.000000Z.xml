@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VehicleInspection>
+  <InspectionID>#INSP-0002</InspectionID>
+  <InspectionType>LOADING</InspectionType>
+  <VehicleNo>qw12qw1234</VehicleNo>
+  <Location>TEST</Location>
+  <Date>2026-08-10T00:00:00.000000Z</Date>
+  <Time>18:37:00</Time>
+  <Status>SUBMITTED</Status>
+  <LockStatus>Unlocked</LockStatus>
+  <InspectionParameters>
+    <VehicleCondition>clean</VehicleCondition>
+    <Insects>yes</Insects>
+    <UndesirableOdour>yes</UndesirableOdour>
+    <NailBoltProjection>yes</NailBoltProjection>
+    <CoveredFromTop>yes</CoveredFromTop>
+    <CameraCheck>yes</CameraCheck>
+    <ProperHoldingByRope>yes</ProperHoldingByRope>
+  </InspectionParameters>
+  <AdditionalDetails>
+    <VehicleFloorboard>yes</VehicleFloorboard>
+    <WasteSpoilageFood>yes</WasteSpoilageFood>
+    <OilGreaseChemicals>yes</OilGreaseChemicals>
+    <Garbage>yes</Garbage>
+    <InsectRodentActivity>yes</InsectRodentActivity>
+    <BadOdour>yes</BadOdour>
+  </AdditionalDetails>
+  <Observation>TEST</Observation>
+  <Remarks>TEST</Remarks>
+  <Materials>
+    <Material>
+      <Name>TEST</Name>
+      <LotNumber>100</LotNumber>
+      <Quantity>100.00</Quantity>
+      <Unit>100</Unit>
+      <Remark>TEST</Remark>
+    </Material>
+  </Materials>
+  <CheckedBy>2</CheckedBy>
+  <VerifiedBy>Not verified</VerifiedBy>
+</VehicleInspection>
