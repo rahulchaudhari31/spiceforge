@@ -40,7 +40,7 @@ const SigninThree = () => {
                         <div className="login-userheading">
                           <h3>Sign In</h3>
                           <h4>
-                            Access the Dreamspos panel using your email and
+                            Access the POS panel using your email and
                             passcode.
                           </h4>
                         </div>
@@ -165,7 +165,7 @@ const SigninThree = () => {
                   </form>
                 </div>
                 <div className="my-4 d-flex justify-content-center align-items-center copyright-text">
-                  <p>Copyright © 2025 DreamsPOS</p>
+                  <p>Copyright © 2025 POS</p>
                 </div>
               </div>
             </div>

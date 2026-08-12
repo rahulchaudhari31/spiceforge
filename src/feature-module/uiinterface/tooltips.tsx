@@ -287,15 +287,9 @@ const Tooltips = () => {
         </div>
         <div className="footer d-sm-flex align-items-center justify-content-between border-top bg-white p-3">
           <p className="mb-0 text-gray-9">
-            2014 - 2026 © DreamsPOS. All Right Reserved
+            2014 - 2026 © POS. All Right Reserved
           </p>
-          <p>
-            Designed &amp; Developed by{" "}
-            <Link to="javascript:void(0);" className="text-primary">
-              Dreams
-            </Link>
-          </p>
-        </div>
+          </div>
       </div>
       {/* /Page Wrapper */}
     </>

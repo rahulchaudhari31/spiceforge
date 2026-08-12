@@ -49,7 +49,7 @@ const Searchlist = () => {
                   <input
                     type="text"
                     className="form-control flex-fill me-3"
-                    defaultValue="DreamsPOS"
+                    defaultValue="POS"
                   />
                   <button type="submit" className="btn btn-primary">
                     Search
@@ -60,7 +60,7 @@ const Searchlist = () => {
           </div>
           <div className="card">
             <div className="card-body">
-              <h5 className="mb-3">Search result for {`"DreamsPOS"`}</h5>
+              <h5 className="mb-3">Search result for {`"POS"`}</h5>
               <div className="row">
                 <div className="col-md-6">
                   <div className="card shadow-none">
@@ -69,7 +69,7 @@ const Searchlist = () => {
                         https://themeforest.net/search/dreamspos
                       </Link>
                       <p className="text-truncate line-clamb-2 mb-2">
-                        DreamsPOS - Html, Vue 3, Angular 17+, React &amp; Node
+                        POS - Html, Vue 3, Angular 17+, React &amp; Node
                         HR Project Management &amp; CRM Admin Dashboard Template
                       </p>
                       <div className="d-flex align-items-center flex-wrap row-gap-2">

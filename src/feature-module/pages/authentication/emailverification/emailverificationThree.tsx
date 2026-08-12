@@ -83,7 +83,7 @@ const EmailverificationThree = () => {
               </div>
             </div>
             <div className="my-4 d-flex justify-content-center align-items-center copyright-text">
-              <p>Copyright © 2025 DreamsPOS</p>
+              <p>Copyright © 2025 POS</p>
             </div>
           </div>
         </div>

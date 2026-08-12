@@ -64,7 +64,7 @@ const Lockscreen = () => {
                 </li>
               </ul>
               <div className="my-4 d-flex justify-content-center align-items-center copyright-text">
-                <p>Copyright © 2024 DreamsPOS. All rights reserved</p>
+                <p>Copyright © 2024 POS. All rights reserved</p>
               </div>
             </div>
           </div>

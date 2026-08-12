@@ -144,15 +144,9 @@ const Balancesheet = () => {
       </div>
       <div className="footer d-sm-flex align-items-center justify-content-between border-top bg-white p-3">
         <p className="mb-0 text-gray-9">
-          2014 - 2025 © DreamsPOS. All Right Reserved
+          2014 - 2025 © POS. All Right Reserved
         </p>
-        <p>
-          Designed &amp; Developed by{" "}
-          <a href="#" className="text-primary">
-            Dreams
-          </a>
-        </p>
-      </div>
+        </div>
     </div>
   );
 };

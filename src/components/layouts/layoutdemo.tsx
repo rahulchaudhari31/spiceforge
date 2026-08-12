@@ -3052,13 +3052,7 @@ const LayoutDemo = () => {
       </div>
       <div className="copyright-footer d-flex align-items-center justify-content-between border-top bg-white gap-3 flex-wrap">
         <p className="fs-13 text-gray-9 mb-0">
-          2014-{new Date().getFullYear()} © DreamsPOS. All Right Reserved
-        </p>
-        <p>
-          Designed &amp; Developed By Dreams{" "}
-          <Link to="#" className="link-primary">
-            Dreams
-          </Link>
+          2014-{new Date().getFullYear()} © POS. All Right Reserved
         </p>
       </div>
     </div>

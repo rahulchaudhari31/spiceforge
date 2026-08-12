@@ -295,14 +295,8 @@ const Testimonial = () => {
           {/* /product list */}
         </div>
         <div className="footer d-sm-flex align-items-center justify-content-between border-top bg-white p-3">
-          <p className="mb-0">2014 - {new Date().getFullYear()} © DreamsPOS. All Right Reserved</p>
-          <p>
-            Designed &amp; Developed By{" "}
-            <Link to="#" className="text-primary">
-              Dreams
-            </Link>
-          </p>
-        </div>
+          <p className="mb-0">2014 - {new Date().getFullYear()} © POS. All Right Reserved</p>
+          </div>
       </div>
       {/* Add Testimonial */}
       <div className="modal fade" id="add-testimonial">
