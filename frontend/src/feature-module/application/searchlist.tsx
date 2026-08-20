@@ -66,7 +66,7 @@ const Searchlist = () => {
                   <div className="card shadow-none">
                     <div className="card-body">
                       <Link to="#" className="text-info text-truncate mb-2">
-                        https://themeforest.net/search/dreamspos
+                        https://themeforest.net/search/pos
                       </Link>
                       <p className="text-truncate line-clamb-2 mb-2">
                         POS - Html, Vue 3, Angular 17+, React &amp; Node
